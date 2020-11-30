@@ -1,0 +1,196 @@
+  body#layout, body#layout div.section {
+    font-family: Arial, sans-serif;
+  }
+  body#layout {
+    max-width: 1040px;
+  }
+  body#layout .sidebar-sticky {
+    z-index:0;
+  }
+  body#layout #wrapper {
+    overflow: unset;
+  }
+  body#layout #header-container {
+    height: auto;
+    position: unset;
+  }
+  body#layout::before {
+    content: "VioMagz v.3.3.0 (redesign iNanikami)";
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    padding: 18px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: teal;
+    border-radius:5px;
+    border: 1px dashed #ddd;
+  }
+  body#layout .widget-content {
+    box-shadow: none;
+  }
+  body#layout #navbar {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 20px;
+    margin-bottom: 12px;
+  }
+  body#layout .header {
+    width: 200px;
+  }
+  body#layout #navbar::before {
+    content: "To speed up loading the blog, click edit and disable Navbar ==>>";
+    position: absolute;
+    bottom: 18px;
+    z-index: 999;
+    right: 80px;
+    color: #999;
+    font-size: 12px;
+  }
+  body#layout #wrapper, body#layout #header-wrapper, body#layout #footer-container, body#layout #footer-widget-container {
+    margin: 0 0;
+    padding: 0 20px;
+  }
+  body#layout #footer-container {
+    padding-bottom: 20px;
+  }
+  body#layout #cssmenu, body#layout #footer-navmenu {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    background: teal;
+    border: 1px solid #d6d6d6;
+    font-weight: bold;
+  }
+  body#layout #cssmenu {
+    height: 33px;
+    padding: 20px;
+    margin: 8px 0;
+    width: 500px;
+    float: right;
+  }
+  body#layout #cssmenu ul, body#layout #footer-navmenu ul, body#layout #footer-widget-container {
+    display: none;
+  }
+  body#layout #cssmenu::after {
+    content: "The navigation menu must be edited via Edit HTML";
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    visibility: visible;
+  }
+  body#layout .post-container {
+    padding: 0 15px 0 0;
+  }
+  body#layout .sidebar-container {
+    padding: 0 0 0 0;
+  }
+  body#layout #searchfs, body#layout .latest-post-title, body#layout .section h4 {
+    display: none;
+  }
+  body#layout div.section {
+    background: transparent;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    border: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body#layout .sidebar-sticky::before {
+    content: "Widget Sidebar (Sticky)";
+  }
+  body#layout .sidebar::before {
+    content: "Widget Sidebar";
+  }
+  body#layout .above-post-widget::before {
+    content: "Widget Above Post (Homepage Only)";
+  }
+  body#layout .Blog::before {
+    content: "Posting Blog";
+    margin-bottom: 8px;
+  }
+  body#layout .bellow-header-widget::before {
+    content: "Widget under the Header/Navigation Menu";
+  }
+  body#layout #footer-widget-container::before {
+    content: "Widget di Atas Footer";
+  }
+  body#layout .sidebar-sticky::before, body#layout .sidebar::before, body#layout .above-post-widget::before, body#layout .Blog::before, body#layout .bellow-header-widget::before {
+    padding: 5px 10px;
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    background: teal;
+    border: 1px solid #d6d6d6;
+    font-weight: bold;
+  }
+  body#layout .add_widget, body#layout .widget-content {
+    padding: 12px;
+  }
+  body#layout .add_widget a {
+    margin-left: 0px;
+    font-size: 14px;
+  }
+  body#layout div.layout-title {
+    font-size: 14px;
+  }
+  body#layout div.layout-widget-description {
+    font-size: 12px;
+  }
+  body#layout .editlink {
+    color: #FFFFFF !important;
+    background: teal;
+    border-radius: 15px;
+    padding: 4px 6px;
+  }
+  body#layout #footer-wrapper {
+    position: relative;
+    background: #fff;
+    height: 40px;
+    border: 1px solid #ddd;
+  }
+  body#layout #footer-wrapper::after {
+    content:"Footer";
+    color:#999;
+    position:absolute;
+    top:12px;
+  }
+  body#layout #footer-navmenu {
+    padding: 0;
+    margin: 0 20px 8px;
+    height: 50px;
+  }
+  body#layout #footer-navmenu::after {
+    content: "The navigation menu must be edited via Edit HTML";
+    color: #fff;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    visibility: visible;
+  }
+body#layout ul {display: none}
+/* ERROR PAGE */
+.status-msg-body::after, .status-msg-hidden::after {
+	content: &quot;404&quot;;
+	font-size: 140px;
+	display: block;
+	margin: 30px 0;
+	color: #e86e6e;
+	font-weight: bold;
+    text-shadow: 6px 6px #eaeaea;
+}
+#blog-pager, #sidebar-wrapper {
+	display: none;
+}
+#post-wrapper {
+	width: 100%;
+	max-width: 100%;
+}
+.status-msg-body {
+	padding: 30px 0;
+}
