@@ -146,7 +146,7 @@ transition: all .5s ease;
 }
 /* HEADER */
 #header-container {
-background: #1a73e8 url(https://3.bp.blogspot.com/-jlcKIZCfrDQ/WtzDK-6gopI/AAAAAAAABbM/G_i_u9ObEzUORoYivnCX0RJ-j3_AY3aNwCLcBGAs/s320/footer-arik.png);
+background: #36A5B2;
 position: absolute;
 top: 0;
 left: 0;
@@ -3557,7 +3557,7 @@ box-shadow:0 0 .5rem 0rem #444
 }
 /* Hero Wrapper */
 .hero-wrap .hero-content.container{width:100%;max-width:1000px;margin:0 auto;padding:0}
-#hero-vvv{background:#1a73e8;background-image: linear-gradient(110deg,transparent 75%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0.1) 81.5%,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2));background-size: cover;z-index: 0;width: 100%;}
+#hero-vvv{background:#36A5B2;background-image: linear-gradient(110deg,transparent 75%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0.1) 81.5%,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.2));background-size: cover;z-index: 0;width: 100%;}
 #hero-vvv{padding: 4rem 0 5rem;position: relative;display: inline-block;}
 .button-home a span.but {font-size: 12px;font-weight: 500;background-color: #fff;-moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius: 30px;padding: 9px 20px;display: inline-block;text-transform: uppercase;text-align: center;position: relative;margin: 20px 10px auto 0;overflow: hidden;color: #2;}
 .button-home a span.bus {font-size: 12px;font-weight: 500;-moz-border-radius: 30px;-webkit-border-radius: 30px;border-radius: 30px;padding: 8px 20px;text-transform: uppercase;display: inline-block;text-align: center;position: relative;margin: 20px auto 0;overflow: hidden;background-color: #3a3c3b;color: #fff;}
@@ -3601,10 +3601,3 @@ box-shadow:0 0 .5rem 0rem #444
 .nightmode #header-container{background:rgba(82,62,232,.92);background-image:url(https://goomsite.github.io/file/overlay.svg),linear-gradient(45deg,#2c3e50 0%,#34495e 100%)}
 .nightmode h1.post-title{background:rgba(82,62,232,.92);background-image:url(https://goomsite.github.io/file/overlay.svg),linear-gradient(45deg,#2c3e50 0%,#34495e 100%)}
 .nightmode .Profile .widget-content{background:rgba(82,62,232,.92);background-image:url(https://goomsite.github.io/file/overlay.svg),linear-gradient(45deg,#2c3e50 0%,#34495e 100%)}
-
-code,pre,pre code{font-family:Consolas,Monaco,'Andale Mono',monospace;word-spacing:normal;font-size:14px;line-height:1.3em;}
-pre code{padding:20px!important;margin:20px auto 50px;!important; rgba(0,0,0,.04),0 10px 17px -2px rgba(0,0,0,.070);border-top:1px solid rgba(0,0,0,0.02);}
-.post-body code{color:#e20d58}
-
-.post-body{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
-blockquote,.blockquote,pre,code,i{-webkit-touch-callout:text;-webkit-user-select:text;-moz-user-select:text;-ms-user-select:text;-o-user-select:text;user-select:text}
